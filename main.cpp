@@ -26,16 +26,16 @@ int main() {
                 leerPersona();
                 break;
             case 3:
-                // actualizarPersona();
+                actualizarPersona();
                 break;
             case 4:
-                // borrarPersona();
+                borrarPersona();
                 break;
             case 5: {
                 int id;
                 cout << "Ingrese el ID: " << endl;
                 cin >> id;
-                // buscarPorId(id);
+                buscarPorId(id);
                 break;
             }
             case 6: {
@@ -43,7 +43,7 @@ int main() {
                 cout << "Ingrese el nombre: " << endl;
                 cin.ignore();
                 getline(cin, nombre);
-                // buscarPorNombre(nombre);
+                buscarPorNombre(nombre);
                 break;
             }
             case 7:
